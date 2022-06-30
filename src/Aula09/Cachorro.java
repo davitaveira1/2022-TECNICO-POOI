@@ -16,6 +16,9 @@ public class Cachorro {
     int idade;
     
     //metodos
+    void latir(){
+        System.out.println("Au!Au!Au!");
+    }
     
     public static void main(String[] args) {
         //criando um objeto do tipo cachorro
@@ -25,6 +28,7 @@ public class Cachorro {
         dog.nome="Pluto";
         dog.idade=3;
         dog.peso=2.5;
+        dog.latir();
         
         System.out.println("Nome do cachorro: "+dog.nome);
         System.out.println("Idade do cachorro: "+dog.idade);
